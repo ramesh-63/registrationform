@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(images/hotel.jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+main {
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: rgb(186, 175, 23);
+    font-size:50px;
+}
+label{
+    font-size: 25px;
+    color: black;
+}
+#namesection, #emailsection ,#phonesection, #Numberofguestssection, #roomtypesection, #checkinsection, #checkoutsection, #specialrequestsection{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 25px 50px;
+
+    background: rgba(255, 255, 255, 0.35);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 15px;
+    
+}
+
+input, textarea, select{
+    width: 100%;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+button {
+    
+    width: 25%;
+    height: 40px;
+    display: block;
+    margin:50px auto;
+    border-radius: 15px;
+    background-color: rgb(189, 107, 12);
+    color: aliceblue;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}

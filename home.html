@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- sample  https://www.zoho.com/forms/templates/registration-forms/simple-hotel-registration-form.html?src=types -->
+</head>
+<body>
+    <main>
+        <h1>Hotel Registration Form</h1>
+        <form action="conformation.html" method="get">
+        <div id="formsection">
+            
+            <div id="namesection">
+                <label for="name">Name</label><br><br>
+                <input type="text" id="name" >
+                <p class="label">First Name</p>
+                <input type="text" id="lname" >
+                <p class="label">Last Name</p>
+            </div>
+
+            <div id="emailsection">
+                <label for="email">Email</label><br><br>
+                <input type="email"  id="email" >
+            </div>
+
+            <div id="phonesection">
+                <label for="phone">Mobile Number</label><br><br>
+                <input type="tel"  id="phone" >
+            </div>
+
+            <div id="Numberofguestssection">
+                <label for="guests">Number of Guests</label><br><br>
+                <input type="number"  id="guests" >
+            </div>
+
+            <div id="roomtypesection">
+                <label for="roomtype">Room Type</label><br><br>
+                <select id="roomtype" required>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                    <optgroup label="Luxury Rooms">
+                        <option value="deluxe">Deluxe</option>
+                        <option value="presidential">Presidential</option>
+                </select>
+            </div>
+
+            <div id="checkinsection">
+                <label for="checkin">Check-in Date & Time</label><br><br>
+                <input type="datetime-local"  id="checkin" >
+            </div>
+
+            <div id="checkoutsection">
+                <label for="checkout">Check-out Date & Time</label><br><br>
+                <input type="datetime-local"  id="checkout" >
+            </div>
+
+            <div id="specialrequestsection">
+                <label for="specialrequest">Any Special Requests</label><br><br>
+                <textarea id="specialrequest" rows="4" cols="50"></textarea>
+            </div>
+
+                <a href="" target="_self"><button type="submit" id="">SUBMIT</button></a>
+        </div>
+        </form>
+    </main>
+    
+</body>
+</html>
